@@ -39,8 +39,6 @@ ticketInfo = ticketFile.readlines()
 # Find empty lines from ticket file. Different types of information are stored in different sections
 emptyLines = []
 for i in range(0,len(ticketInfo)):
-
-    # If there is empty line, the information given for one passport ends and the new begins from next line
     if(ticketInfo[i] == "\n"):
         emptyLines.append(i)
 

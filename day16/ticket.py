@@ -10,7 +10,7 @@ class Ticket:
 
 
     def addInformation(self,configString):
-        """ Add information to passport. Must be in format key1:value1 key2:value2 ... keyN:valueN"""
+        """ Add information to ticket. A string of numbers separated by comma """
 
         # Split the string on commas
         values = configString.split(",")
