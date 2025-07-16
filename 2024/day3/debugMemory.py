@@ -11,7 +11,7 @@ corruptedMemoryFile = open("corruptedMemory.py","r")
 corruptedMemory = corruptedMemoryFile.read()
 
 # For exclusion purposes, add do() to the and of memory
-# This way the regular expression that find exclusion regions
+# This way the regular expression that finds exclusion regions
 # also works at the end of the file
 corruptedMemory = corruptedMemory + "do()"
 
