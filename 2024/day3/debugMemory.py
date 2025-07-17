@@ -7,7 +7,7 @@
 # do() enables multiplication, don't() disables it
 
 # Read the input file
-corruptedMemoryFile = open("corruptedMemory.py","r")
+corruptedMemoryFile = open("corruptedMemory.txt","r")
 corruptedMemory = corruptedMemoryFile.read()
 
 # For exclusion purposes, add do() to the and of memory
