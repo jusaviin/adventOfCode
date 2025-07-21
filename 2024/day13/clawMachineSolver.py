@@ -4,6 +4,7 @@
 # Find the cheapest way to win the most prizes from the claw machines
 
 # Advent of code puzzle 13-2
+# Do the same with shifted prize coordinates
 
 def solveClawMachine(buttonAX, buttonAY, buttonBX, buttonBY, prizeX, prizeY):
     
