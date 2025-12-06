@@ -7,10 +7,10 @@ using namespace std;
 
 /*
  * Advent of code puzzle 1-1
- * decode the password from the instructions
+ * Count the number of times dial stops at 0
  *
  * Advent of code puzzle 1-2
- * 
+ * Count the number of times dial hits zero at any time during rotation
  */
 
 /*
