@@ -221,7 +221,7 @@ int main(int argc, char** argv){
     for(auto problemPiece : problem){
       cout << problemPiece << " ";
     }
-    cout << endl;
+    cout << endl; 
   }*/
 
   // Check that the output is reasonable
